@@ -37,11 +37,11 @@ function NewTicketForm(props) {
           type='text'
           id='location'
           placeholder='Location'
-          ref={(input) => {_names = input;}}/>
+          ref={(input) => {_location = input;}}/>
         <textarea
           id='issue'
           placeholder='Describe your issue.'
-          ref={(textarea) => {_names = textarea;}}/>
+          ref={(textarea) => {_issue = textarea;}}/>
         <button type='submit'>Help!</button>
       </form>
     </div>
